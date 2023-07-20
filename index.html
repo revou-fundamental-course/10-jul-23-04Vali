@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">  
+        <h1> Kalkulator BMI </h1>
+            <label>
+            <input id="u-input" type="number" placeholder="Usia (Tahun): ">
+        </label>
+        <label>
+            <input id="h-input" type="number" placeholder="Tinggi Badan (Cm): ">
+        </label>        
+        <label>
+            <input id="w-input" type="number" placeholder="Berat Badan (Kg): ">
+        </label>            
+        <button type="submit" onclick="Calculate()">Hitung BMI</button>
+            
+        <div class="bmi-value">
+            <h4>Hasil BMI: </h4>
+            <div id="bmi-output"></div>
+        </div>
+        <div class="status">
+            <h4>Status: </h4>
+            <div id="bmi-status"></div>
+        </div>   
+    </div>
+    
+</body>
+</html>
